@@ -1,0 +1,15 @@
+@import "variable";
+@import "default";
+@import "home";
+
+
+
+
+.container{
+  width: 100%;
+  margin: 0;
+
+  h1{
+    color: $color2;
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tech Aces Limited</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oleo+Script" rel="stylesheet">
+    <script src="js/animations/jquery.js" rel="stylesheet"></script>
+</head>
+<body>
+
+    <div id="wrapper"></div>
+
+
+</body>
+
+<script>
+    $(function(){
+
+        $(".skills-container li img").hover(
+
+            function(){
+                $(this).animate({
+                    width: "400px",
+                    height: "300px"
+                }, 500);
+            },
+
+
+            function(){
+                $(this).animate({
+                    width: "350px",
+                    height: "250px"
+                }, 800);
+            }
+        );
+
+        $(".partners").hover(
+
+            function(){
+                $(this).animate({
+                    width: "400px",
+                    height: "300px"
+                }, 500);
+            },
+
+
+            function(){
+                $(this).animate({
+                    width: "350px",
+                    height: "250px"
+                }, 800);
+            }
+        );
+
+    });
+</script>
+</html>
